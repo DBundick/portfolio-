@@ -1,6 +1,7 @@
 body {
     background: lightseagreen
 }
+
 #Favorite{
     font-size: 1.5rem;
     color: lightgreen;
@@ -15,6 +16,6 @@ body {
     width: 25ch;
     padding: 3em;
 }
-#cake {
+#cake{
     float: left;
 }
