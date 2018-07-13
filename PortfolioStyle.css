@@ -2,12 +2,19 @@ body {
     background: lightseagreen
 }
 #Favorite{
-    font-size: 6rem;
+    font-size: 1.5rem;
     color: lightgreen;
     font-family: 'Times New Roman', Times, serif;
 }
 #Dislikes{
-    font-size:5rem;
+    font-size:1.5rem;
     color: lightcoral;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#Picture{
+    width: 25ch;
+    padding: 3em;
+}
+#cake {
+    float: left;
 }
