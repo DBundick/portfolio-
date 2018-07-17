@@ -1,6 +1,5 @@
 body {
-    background: lightseagreen
-}
+    background:lightslategray}
 
 #Favorite{
     font-size: 1.5rem;
@@ -9,7 +8,7 @@ body {
 }
 #Dislikes{
     font-size:1.5rem;
-    color: lightcoral;
+    color: lightgreen;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 #Picture{
@@ -18,4 +17,7 @@ body {
 }
 #cake{
     float: left;
+}
+body{
+    background: lightslategray
 }
