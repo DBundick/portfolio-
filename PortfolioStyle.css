@@ -1,13 +1,13 @@
 body {
     background:lightslategray}
 
-#Favorite{
-    font-size: 3.5rem;
+#Fonts{
+    font-size: 1.5rem;
     color: lightgreen;
     font-family: 'Times New Roman', Times, serif;
 }
-#Dislikes{
-    font-size:3.5rem;
+#Fonts{
+    font-size: 1.5rem;
     color: lightgreen;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -28,6 +28,7 @@ body {
 }
 h1 {
     font-family: 'Lobster', cursive;
+    color: lavender
 }
 
 @keyframes animate{
