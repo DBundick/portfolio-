@@ -1,37 +1,43 @@
 body {
-    background:lightslategray}
+    background: lightslategray
+}
 
-#Fonts{
+/* TODO:  If you have two selectors like #Fonts with different settings for font-family, only the second one will be used; you can combine these in to one. */
+
+#Fonts {
     font-size: 1.5rem;
     color: lightgreen;
     font-family: 'Times New Roman', Times, serif;
 }
-#Fonts{
+
+#Fonts {
     font-size: 1.5rem;
     color: lightgreen;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-#Picture{
+
+#Picture {
     width: 25ch;
     padding: 3em;
-    float: right; 
+    float: right;
     animation-name: animate;
     animation-duration: 3s;
 }
-#cake{
+
+#cake {
     float: left;
 }
-
-#Fonts{
+/* TODO:  same as above */
+#Fonts {
     font-family: 'Courgette', cursive;
-
 }
+
 h1 {
     font-family: 'Lobster', cursive;
     color: lavender
 }
 
-@keyframes animate{
+@keyframes animate {
     0% {
         transform: scale(0.1);
         opacity: 0;
@@ -44,12 +50,14 @@ h1 {
         transform: scale(1);
     }
 }
-@media all and (orientation:landscape) and (max-width: 750px){
+
+@media all and (orientation:landscape) and (max-width: 750px) {
     #Picture {
         width: 15ch;
     }
 }
-@media all and (max-width: 420px){
+
+@media all and (max-width: 420px) {
     #Picture {
         width: 15ch;
     }
