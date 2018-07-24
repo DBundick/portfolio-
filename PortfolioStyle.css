@@ -44,3 +44,13 @@ h1 {
         transform: scale(1);
     }
 }
+@media all and (orientation:landscape) and (max-width: 750px){
+    #Picture {
+        width: 15ch;
+    }
+}
+@media all and (max-width: 420px){
+    #Picture {
+        width: 15ch;
+    }
+}
