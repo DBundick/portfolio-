@@ -2,20 +2,12 @@ body {
     background: lightslategray
 }
 
-/* TODO:  If you have two selectors like #Fonts with different settings for font-family, only the second one will be used; you can combine these in to one. */
 
-#Fonts {
+.Fonts {
     font-size: 1.5rem;
     color: lightgreen;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courgette', cursive;
 }
-
-#Fonts {
-    font-size: 1.5rem;
-    color: lightgreen;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
 #Picture {
     width: 25ch;
     padding: 3em;
@@ -26,10 +18,6 @@ body {
 
 #cake {
     float: left;
-}
-/* TODO:  same as above */
-#Fonts {
-    font-family: 'Courgette', cursive;
 }
 
 h1 {
